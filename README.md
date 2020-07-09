@@ -11,11 +11,20 @@ The visualizer provides a way to "see" the algorithm at work. It uses `PyGame` t
 
 ## Using
 
-### Before Running (Assuming you have pip)
-* Run `pip install pygame` in the terminal
-* Run `pip install numpy`
+### Before Running (Assuming you have pip, git and an appropriate version of python)
 
-**Note:** I am using `pygame 1.9.6`, `numpy 1.18.4` and `python 3.7.4`
+* If you're not worried about breaking anything in your environment:
+    
+    * Run `pip install -r requirements.txt`
+
+* Otherwise, if you're trying to install the dependencies individually:
+
+    * Run `pip install pygame`
+    * Run `pip install numpy`
+    
+Then, clone the repo with: `git clone https://github.com/Adi-UA/N-Queens-Visualizer.git`.
+
+**Note:** I used `python 3.7.x`, `pygame 1.9.6`, and `numpy 1.19.0`.
 
 ### Running
 Clone the rep and run `visualize.py` in the terminal with n passed as the argument.
